@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Krida TPTKP - Saka Bhayangkara AKT-38</title>
+
+<link rel="icon" type="image/png" href="tptkp.jpeg">
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0d0d0d;
+color:white;
+}
+
+.hero{
+height:70vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:
+linear-gradient(rgba(139,0,0,.85),rgba(0,0,0,.95)),
+url("hero-lantas.jpg");
+background-size:cover;
+background-position:center;
+}
+
+.hero img{
+width:160px;
+filter:drop-shadow(0 0 15px #ffd700);
+}
+
+.hero h1{
+font-family:'Bebas Neue';
+font-size:90px;
+color:#ffd700;
+letter-spacing:3px;
+margin-top:15px;
+}
+
+.hero p{
+max-width:700px;
+padding:15px;
+}
+
+.container{
+padding:80px 8%;
+}
+
+.card{
+background:#181818;
+padding:30px;
+border-radius:25px;
+margin-bottom:25px;
+border:2px solid transparent;
+transition:.4s;
+}
+
+.card:hover{
+border-color:#ffd700;
+box-shadow:0 0 25px rgba(255,215,0,.4);
+}
+
+.card h2{
+color:#ffd700;
+margin-bottom:15px;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.stat{
+background:#111;
+padding:25px;
+border-radius:15px;
+text-align:center;
+}
+
+.stat h3{
+font-size:35px;
+color:#ffd700;
+}
+
+.ketua{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+align-items:center;
+}
+
+.ketua img{
+width:250px;
+border-radius:20px;
+border:3px solid #ffd700;
+}
+
+.anggota{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.anggota-card{
+background:#111;
+padding:20px;
+border-radius:15px;
+text-align:center;
+transition:.3s;
+}
+
+.anggota-card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 20px rgba(255,215,0,.4);
+}
+
+.anggota-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:12px;
+margin-bottom:10px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+box-shadow:0 0 20px rgba(255,215,0,.5);
+}
+
+.btn{
+display:inline-block;
+padding:15px 30px;
+background:#ffd700;
+color:black;
+font-weight:bold;
+text-decoration:none;
+border-radius:40px;
+}
+
+.btn:hover{
+box-shadow:0 0 20px #ffd700;
+}
+
+footer{
+background:black;
+padding:30px;
+text-align:center;
+border-top:3px solid #ffd700;
+margin-top:50px;
+}
+
+footer h2{
+color:#ffd700;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:55px;
+}
+
+.ketua{
+flex-direction:column;
+text-align:center;
+}
+
+.ketua img{
+width:200px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<img src="tptkp.jpeg">
+
+<h1>KRIDA TPTKP</h1>
+
+<p>
+Membentuk anggota yang sigap, teliti, dan terampil dalam penanganan Tempat Kejadian Perkara (TKP) serta membantu proses penyelidikan secara tepat dan bertanggung jawab.
+</p>
+
+</section>
+
+<div class="container">
+
+<div class="card" data-aos="fade-up">
+
+<h2>Tentang Krida TPTKP</h2>
+
+<p>
+Krida TPTKP (Tindakan Pertama Tempat Kejadian Perkara) merupakan salah satu krida dalam Saka Bhayangkara yang mempelajari cara melakukan tindakan pertama di lokasi kejadian, mengamankan TKP, mengenali barang bukti, serta membantu proses penyelidikan sesuai prosedur yang berlaku.
+</p>
+
+</div>
+
+<div class="card" data-aos="fade-up">
+
+<h2>Visi & Misi</h2>
+
+<h3>Visi</h3>
+
+<p>
+Menjadi generasi muda yang sigap, cermat, dan bertanggung jawab dalam penanganan awal Tempat Kejadian Perkara.
+</p>
+
+<br>
+
+<h3>Misi</h3>
+
+<ul>
+<li>Mempelajari dasar-dasar penanganan TKP.</li>
+<li>Melatih ketelitian dalam mengamati dan mencatat kejadian.</li>
+<li>Mengenali berbagai jenis barang bukti dan cara penanganannya.</li>
+<li>Membantu pengamanan lokasi kejadian sesuai prosedur.</li>
+<li>Menumbuhkan sikap disiplin, tanggung jawab, dan profesionalisme.</li>
+</ul>
+
+</div>
+
+<div class="card" data-aos="fade-up">
+
+<h2>Statistik Krida</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h3>7</h3>
+<p>Anggota</p>
+</div>
+
+<div class="stat">
+<h3>8</h3>
+<p>Kegiatan</p>
+</div>
+
+<div class="stat">
+<h3>2</h3>
+<p>Prestasi</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="card" data-aos="fade-up">
+
+<h2>Ketua Koordinator Krida TPTKP</h2>
+
+<div class="ketua">
+
+<img src="GISKA AGNESIA.jpg">
+
+<div>
+<h3>GISKA AGNESIA</h3>
+<p>
+Memimpin dan mengkoordinasikan seluruh 
+kegiatan Krida TPTKP serta bertanggung jawab atas 
+pelaksanaan program kerja yang berkaitan dengan penanganan Tempat Kejadian Perkara (TKP).
+</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="card" data-aos="fade-up">
+
+<h2>Materi Yang Dipelajari</h2>
+
+<ul>
+<li>Pengertian dan fungsi TKP</li>
+<li>Tindakan pertama di tempat kejadian.</li>
+<li>Pengamanan dan sterilisasi TKP.</li>
+<li>Pengenalan barang bukti.</li>
+<li>Teknik dokumentasi sederhana.</li>
+<li>Dasar-dasar penyelidikan kepolisian.</li>
+</ul>
+
+</div>
+
+<div class="card" data-aos="fade-up">
+
+<h2>Program Kerja</h2>
+
+<ul>
+<li>Simulasi penanganan TKP.</li>
+<li>Praktik pengamanan lokasi kejadian.</li>
+<li>Pelatihan identifikasi barang bukti.</li>
+<li>Latihan dokumentasi dan pencatatan kejadian.</li>
+<li>Bakti masyarakat dan pengamanan kegiatan.</li>
+</ul>
+
+</div>
+
+<div class="card" data-aos="fade-up">
+
+<h2>Daftar Anggota</h2>
+
+<div class="anggota">
+
+<div class="anggota-card">
+<img src="DANI AFGAN SETYAWAN.jpg">
+<h3>DANI AFGAN SETYAWAN</h3>
+</div>
+
+<div class="anggota-card">
+<img src="IDRIS.jpg">
+<h3>IDRIS</h3>
+</div>
+
+<div class="anggota-card">
+<img src="AYU SALSA RUFIANA.jpg">
+<h3>AYU SALSA RUFIANA</h3>
+</div>
+
+<div class="anggota-card">
+<img src="NIKE HARDIANA.jpg">
+<h3>NIKE HARDIANA</h3>
+</div>
+
+<div class="anggota-card">
+<img src="NURUL LAILATUL MUKHAROMAH.jpg">
+<h3>NURUL LAILATUL MUKHAROMAH</h3>
+</div>
+
+<div class="anggota-card">
+<img src="ARUM TRIA DINATA.jpg">
+<h3>ARUM TRIA DINATA</h3>
+</div>
+
+</div>
+
+</div>
+
+<div class="card" data-aos="fade-up">
+
+<h2>Galeri Kegiatan</h2>
+
+<div class="gallery">
+
+<img src="galeri1.jpg">
+<img src="galeri2.jpg">
+<img src="galeri3.jpg">
+<img src="galeri4.jpg">
+<img src="galeri5.jpg">
+<img src="galeri6.jpg">
+
+</div>
+
+</div>
+
+<div class="card" data-aos="fade-up">
+
+
+<a href="index.html" class="btn">
+← Kembali ke Beranda
+</a>
+
+</div>
+
+<footer>
+
+<h2>KRIDA TPTKP</h2>
+
+<p>Saka Bhayangkara Polsek Ngadirojo AKT-38</p>
+
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration:1000,
+once:true
+});
+</script>
+
+</body>
+</html>
