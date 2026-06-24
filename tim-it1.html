@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bendahara - Saka Bhayangkara AKT-38</title>
+
+<link rel="icon" type="image/png" href="logo1.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+<style>
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+background:
+linear-gradient(
+rgba(150,0,0,.95),
+rgba(0,0,0,.95)
+);
+
+padding:20px;
+}
+
+.hero-content{
+max-width:900px;
+}
+
+.logo-saka{
+width:220px;
+margin-bottom:30px;
+
+filter:
+drop-shadow(0 0 10px #ffd700)
+drop-shadow(0 0 20px #ffd700)
+drop-shadow(0 0 35px #ffcc00);
+
+animation:float 3s ease-in-out infinite;
+}
+
+.hero h1{
+font-family:'Bebas Neue',sans-serif;
+font-size:120px;
+letter-spacing:4px;
+color:#ffd700;
+text-shadow:
+0 0 10px #ffd700,
+0 0 25px #ffcc00;
+}
+
+.hero p{
+font-size:28px;
+margin-top:10px;
+}
+
+@keyframes float{
+0%,100%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(-10px);
+}
+}
+
+@media(max-width:768px){
+
+.logo-saka{
+width:150px;
+}
+
+.hero h1{
+font-size:70px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+overflow-x:hidden;
+}
+
+.hero{
+height:70vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:
+linear-gradient(rgba(120,0,0,.85),
+rgba(0,0,0,.95)),
+url("hero.jpg");
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-family:'Bebas Neue';
+font-size:100px;
+color:#ffd700;
+letter-spacing:4px;
+text-shadow:0 0 20px #ffd700;
+}
+
+.hero p{
+font-size:22px;
+margin-top:10px;
+}
+
+.container{
+padding:80px 8%;
+}
+
+.card{
+background:#181818;
+padding:35px;
+border-radius:25px;
+margin-bottom:25px;
+border:2px solid transparent;
+transition:.4s;
+}
+
+.card:hover{
+border-color:#ffd700;
+box-shadow:0 0 25px rgba(255,215,0,.4);
+transform:translateY(-5px);
+}
+
+.card h2{
+color:#ffd700;
+margin-bottom:15px;
+}
+
+.sekretaris-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+}
+
+@media(max-width:1000px){
+.sekretaris-grid{
+grid-template-columns:repeat(2,1fr);
+}
+}
+
+@media(max-width:700px){
+.sekretaris-grid{
+grid-template-columns:1fr;
+}
+}
+
+.sekretaris-card{
+background:#111;
+border-radius:20px;
+overflow:hidden;
+text-align:center;
+transition:.4s;
+}
+
+.sekretaris-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px rgba(255,215,0,.4);
+}
+
+.sekretaris-card img{
+width:100%;
+height:500px;
+object-fit:contain;
+padding:15px;
+border-radius:25px;
+background:#111;
+}
+
+.sekretaris-info{
+padding:20px;
+}
+
+.sekretaris-info h3{
+color:#ffd700;
+margin-bottom:10px;
+}
+
+ul{
+padding-left:20px;
+}
+
+ul li{
+margin-bottom:10px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#ffd700;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:50px;
+margin-top:20px;
+}
+
+.btn:hover{
+box-shadow:0 0 20px #ffd700;
+}
+
+footer{
+background:black;
+padding:40px;
+text-align:center;
+border-top:3px solid #ffd700;
+}
+
+footer h2{
+color:#ffd700;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:60px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div>
+
+<img src="logo2.png" class="logo-saka">
+
+<h1>IT</h1>
+
+<p>Tim Informasi & Teknologi AKT-38</p>
+
+</div>
+
+</section>
+
+</section>
+
+<div class="container">
+
+<div class="card" data-aos="fade-up">
+
+<h2>Tentang IT</h2>
+
+<p>
+Bidang IT bertanggung jawab dalam pengelolaan teknologi informasi, media digital, 
+website, desain grafis, dokumentasi digital, serta publikasi kegiatan 
+Saka Bhayangkara AKT-38. Bidang ini berperan dalam mendukung penyebaran informasi 
+organisasi secara cepat, kreatif, dan profesional.
+</p>
+
+</div>
+
+<div class="card" data-aos="fade-up">
+
+<h2>Pengurus IT</h2>
+
+<div class="sekretaris-grid">
+
+<div class="sekretaris-card">
+<img src="RARA SELFIFANA.jpg" alt="Bendahara I">
+
+<div class="sekretaris-info">
+<h3>IT I</h3>
+<p>RARA SELFIFANA</p>
+</div>
+</div>
+
+<div class="sekretaris-card">
+<img src="KEYLA AVRILIA MARZAKIRA.jpg" alt="Bendahara II">
+
+<div class="sekretaris-info">
+<h3>IT II</h3>
+<p>KEYLA AVRILIA MARZAKIRA</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="card" data-aos="fade-up">
+
+<h2>Visi</h2>
+
+<p>
+Mewujudkan sistem informasi dan media digital Saka Bhayangkara AKT-38 yang modern, 
+kreatif, informatif, dan mudah diakses oleh seluruh anggota maupun masyarakat.
+</p>
+
+<br>
+
+<h2>Misi</h2>
+
+<ul>
+<li>Mengelola media informasi organisasi secara profesional.</li>
+<li>Mendukung publikasi kegiatan melalui platform digital.</li>
+<li>Mengembangkan website dan media sosial organisasi.</li>
+<li>Meningkatkan kualitas dokumentasi dan desain publikasi.</li>
+</ul>
+
+</div>
+
+<div class="card" data-aos="fade-up">
+
+<h2>Tugas Pokok</h2>
+
+<ul>
+<li>Mengelola website resmi organisasi.</li>
+<li>Mengelola media sosial Saka Bhayangkara AKT-38.</li>
+<li>Membuat desain publikasi kegiatan.</li>
+<li>Mendokumentasikan kegiatan dalam bentuk foto dan video.</li>
+<li>Mengelola arsip digital organisasi.</li>
+<li>Membantu kebutuhan teknologi informasi organisasi.</li>
+<li>Menyebarluaskan informasi kegiatan kepada anggota dan masyarakat.</li>
+</ul>
+
+</div>
+
+<div class="card" data-aos="fade-up">
+
+<h2>Program Kerja</h2>
+
+<ul>
+<li>Pengelolaan dan pembaruan website organisasi.</li>
+<li>Publikasi kegiatan melalui media sosial.</li>
+<li>Pembuatan desain poster, banner, dan media informasi.</li>
+<li>Dokumentasi foto dan video setiap kegiatan.</li>
+<li>Pengembangan sistem informasi organisasi.</li>
+<li>Pengarsipan dokumentasi digital.</li>
+<li>Pelatihan dasar desain grafis dan teknologi informasi bagi anggota.</li>
+</ul>
+
+</div>
+
+<a href="index.html" class="btn">
+← Kembali ke Beranda
+</a>
+
+</div>
+
+<footer>
+
+<h2>SAKA BHAYANGKARA POLSEK NGADIROJO AKT-38</h2>
+
+<p>Disiplin • Tangguh • Berkarakter</p>
+
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration:1000,
+once:true
+});
+</script>
+
+</body>
+</html>

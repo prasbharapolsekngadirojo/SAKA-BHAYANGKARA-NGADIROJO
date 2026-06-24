@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Krida Saka Bhayangkara AKT-38</title>
+
+<link rel="icon" href="logo1.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+}
+
+/* HERO */
+
+.hero{
+height:70vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:
+linear-gradient(
+rgba(120,0,0,.85),
+rgba(0,0,0,.95)
+);
+padding:20px;
+}
+
+.logo-saka{
+width:180px;
+margin-bottom:20px;
+filter:
+drop-shadow(0 0 10px #ffd700)
+drop-shadow(0 0 20px #ffd700);
+}
+
+.hero h1{
+font-family:'Bebas Neue';
+font-size:100px;
+color:#ffd700;
+letter-spacing:4px;
+text-shadow:0 0 20px #ffd700;
+}
+
+.hero p{
+font-size:22px;
+}
+
+/* KRIDA */
+
+.krida-section{
+background:#181818;
+margin:40px 8%;
+padding:40px;
+border-radius:25px;
+border:2px solid transparent;
+transition:.4s;
+}
+
+.krida-section:hover{
+border-color:#ffd700;
+box-shadow:0 0 25px rgba(255,215,0,.4);
+}
+
+.krida-header{
+display:flex;
+align-items:center;
+gap:30px;
+margin-bottom:25px;
+}
+
+.logo-krida{
+width:120px;
+height:120px;
+object-fit:contain;
+}
+
+.krida-info h2{
+font-size:45px;
+color:#ffd700;
+margin-bottom:10px;
+}
+
+.krida-info p{
+line-height:1.8;
+}
+
+/* ANGGOTA */
+
+.judul{
+text-align:center;
+color:#ffd700;
+font-size:30px;
+margin:30px 0;
+}
+
+.anggota-grid{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.anggota-card{
+width:220px;
+background:#111;
+border-radius:20px;
+overflow:hidden;
+text-align:center;
+transition:.4s;
+}
+
+.anggota-card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 20px rgba(255,215,0,.5);
+}
+
+.anggota-card img{
+width:100%;
+height:280px;
+object-fit:cover;
+}
+
+.anggota-card h3{
+color:#ffd700;
+padding-top:15px;
+font-size:18px;
+}
+
+.anggota-card p{
+padding-bottom:15px;
+}
+
+/* FOOTER */
+
+footer{
+background:black;
+padding:40px;
+text-align:center;
+border-top:3px solid #ffd700;
+margin-top:50px;
+}
+
+footer h2{
+color:#ffd700;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:60px;
+}
+
+.krida-header{
+flex-direction:column;
+text-align:center;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div>
+
+<img src="logo2.png" class="logo-saka">
+
+<h1>4 KRIDA</h1>
+
+<p>Saka Bhayangkara AKT-38</p>
+
+</div>
+
+</section>
+
+<!-- KRIDA LANTAS -->
+
+<section class="krida-section">
+
+<div class="krida-header">
+
+<img src="lantas.jpeg" class="logo-krida">
+
+<div class="krida-info">
+
+<h2>KRIDA LANTAS</h2>
+
+<p>
+Krida Lantas mempelajari keamanan,
+keselamatan, ketertiban, dan kelancaran
+lalu lintas.
+</p>
+
+</div>
+
+</div>
+
+<h3 class="judul">Anggota Krida LANTAS</h3>
+
+<div class="anggota-grid">
+
+<div class="anggota-card">
+<img src="KEYLA AVRILIA MARZAKIRA.jpg">
+<h3>KEYLA AVRILIA MARZAKIRA</h3>
+</div>
+
+<div class="anggota-card">
+<img src="SITI NURHALISA RAHAYU.jpg">
+<h3>SITI NURHALISA RAHAYU</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- KRIDA TPTKP -->
+
+<section class="krida-section">
+
+<div class="krida-header">
+
+<img src="tptkp.jpeg" class="logo-krida">
+
+<div class="krida-info">
+
+<h2>KRIDA TPTKP</h2>
+
+<p>
+Krida TPTKP mempelajari teknik
+pengamanan dan penanganan awal
+Tempat Kejadian Perkara.
+</p>
+
+</div>
+
+</div>
+
+<h3 class="judul">Anggota Krida TPTKP</h3>
+
+<div class="anggota-grid">
+
+<div class="anggota-card">
+<img src="DWI ALISA SUGIARTI.jpg">
+<h3>DWI ALISA SUGIARTI</h3>
+</div>
+
+<div class="anggota-card">
+<img src="KARTIKA YULIANI.jpg">
+<h3>KARTIKA YULIANI</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- KRIDA PPB -->
+
+<section class="krida-section">
+
+<div class="krida-header">
+
+<img src="ppb.jpeg" class="logo-krida">
+
+<div class="krida-info">
+
+<h2>KRIDA PPB</h2>
+
+<p>
+Krida Pencegahan dan Penanggulangan
+Bencana mempelajari kesiapsiagaan
+dan penanganan bencana.
+</p>
+
+</div>
+
+</div>
+
+<h3 class="judul">Anggota Krida PPB</h3>
+
+<div class="anggota-grid">
+
+<div class="anggota-card">
+<img src="DWI TRI MUKTI.png">
+<h3>DWI TRI MUKTI</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- KRIDA TIBMAS -->
+
+<section class="krida-section">
+
+<div class="krida-header">
+
+<img src="tibmas.jpeg" class="logo-krida">
+
+<div class="krida-info">
+
+<h2>KRIDA TIBMAS</h2>
+
+<p>
+Krida Tibmas mempelajari pembinaan
+keamanan dan ketertiban masyarakat
+serta kepedulian sosial.
+</p>
+
+</div>
+
+</div>
+
+<h3 class="judul">Anggota Krida TIBMAS</h3>
+
+<div class="anggota-grid">
+
+<div class="anggota-card">
+<img src="ALFIAN PUTRA PAMUNGKAS.jpg">
+<h3>ALFIAN PUTRA PAMUNGKAS</h3>
+</div>
+
+<div class="anggota-card">
+<img src="FEBRI FITRI NURYANI.jpg">
+<h3>FEBRI FITRI NURYANI</h3>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>SAKA BHAYANGKARA POLSEK NGADIROJO AKT-38</h2>
+
+<p>Disiplin • Tangguh • Berkarakter</p>
+
+</footer>
+
+</body>
+</html>
